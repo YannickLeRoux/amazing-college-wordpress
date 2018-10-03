@@ -1,0 +1,126 @@
+[04-Apr-2018 00:30:15 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 10
+[04-Apr-2018 02:59:09 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[04-Apr-2018 03:02:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 11
+[04-Apr-2018 03:12:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[04-Apr-2018 03:13:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[04-Apr-2018 03:14:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /app/public/wp-content/themes/fictional-university-theme/index.php:3
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[05-Apr-2018 05:48:02 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[05-Apr-2018 05:48:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /app/public/wp-includes/class-wp-hook.php on line 279
+[05-Apr-2018 05:49:41 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /app/public/wp-includes/class-wp-hook.php on line 279
+[05-Apr-2018 05:51:23 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /app/public/wp-includes/class-wp-hook.php on line 279
+[05-Apr-2018 05:51:26 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /app/public/wp-includes/cache.php on line 700
+[05-Apr-2018 05:51:26 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[05-Apr-2018 05:52:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 16777224 bytes) in /app/public/wp-includes/class-wp-hook.php on line 275
+[06-Apr-2018 17:06:30 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 23
+[06-Apr-2018 17:06:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 25
+[06-Apr-2018 17:13:49 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 26
+[06-Apr-2018 17:17:01 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 26
+[06-Apr-2018 17:17:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 26
+[06-Apr-2018 17:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function list_pages() in /app/public/wp-content/themes/fictional-university-theme/page.php:38
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page.php on line 38
+[06-Apr-2018 21:56:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 36
+[11-Apr-2018 21:28:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/translation-install.php on line 65
+[13-Apr-2018 21:41:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tile() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:50
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 50
+[17-Apr-2018 00:39:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[17-Apr-2018 00:59:40 UTC] PHP Parse error:  syntax error, unexpected ''singular_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university_post_types.php on line 10
+[17-Apr-2018 03:14:52 UTC] PHP Parse error:  syntax error, unexpected ''singular_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university_post_types.php on line 10
+[20-Apr-2018 03:46:53 UTC] PHP Parse error:  syntax error, unexpected ''singular_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university_post_types.php on line 10
+[20-Apr-2018 03:55:21 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 24
+[20-Apr-2018 03:59:54 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/translation-install.php on line 65
+[20-Apr-2018 04:16:22 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/mu-plugins/university_post_types.php on line 5
+[21-Apr-2018 00:23:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 66
+[21-Apr-2018 00:23:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 70
+[21-Apr-2018 00:24:27 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 70
+[21-Apr-2018 23:00:59 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[21-Apr-2018 23:08:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[21-Apr-2018 23:09:47 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[21-Apr-2018 23:43:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[21-Apr-2018 23:46:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[21-Apr-2018 23:49:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[21-Apr-2018 23:50:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[22-Apr-2018 06:04:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 23
+[22-Apr-2018 06:27:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 06:27:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 06:27:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 06:27:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 06:27:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:12:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:12:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:12:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:12:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:12:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:18:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:18:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:18:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:34:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:35:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[22-Apr-2018 23:38:24 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 22
+[22-Apr-2018 23:39:18 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 22
+[22-Apr-2018 23:40:02 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 22
+[22-Apr-2018 23:43:02 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 22
+[22-Apr-2018 23:43:05 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 22
+[22-Apr-2018 23:46:55 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 22
+[22-Apr-2018 23:46:59 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 22
+[25-Apr-2018 00:32:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 26
+[27-Apr-2018 23:33:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function r() in /app/public/wp-content/themes/fictional-university-theme/front-page.php:36
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 36
+[28-Apr-2018 02:32:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 91
+[28-Apr-2018 02:35:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 92
+[28-Apr-2018 02:35:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 92
+[28-Apr-2018 02:39:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/header.php on line 26
+[28-Apr-2018 02:40:22 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/header.php on line 26
+[01-May-2018 01:26:59 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting '(' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 32
+[01-May-2018 22:14:17 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 9
+[01-May-2018 22:14:17 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 9
+[18-May-2018 17:59:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 116
+[21-May-2018 18:57:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/fictional-university-theme/single-campus.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 49
+[21-May-2018 18:58:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/fictional-university-theme/single-campus.php:49
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 49
+[21-May-2018 19:09:33 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 94
+[24-Jun-2018 06:08:12 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[18-Jul-2018 16:50:19 UTC] PHP Parse error:  syntax error, unexpected 'x' (T_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 68
+[18-Jul-2018 16:50:31 UTC] PHP Parse error:  syntax error, unexpected 'x' (T_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 68
+[18-Jul-2018 16:50:45 UTC] PHP Parse error:  syntax error, unexpected 'x' (T_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 68
